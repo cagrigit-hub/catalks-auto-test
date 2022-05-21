@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input:focus{
+    outline: none;
+    border: solid 2px;
+    border-color: rgba(87, 154, 255, 0.836) !important;
+}
+
+textarea:focus {
+    outline: none;
+    border: solid 2px;
+    border-color: rgba(87, 154, 255, 0.836) !important;
+}
+
+*{
+    scroll-behavior: smooth;
+}
